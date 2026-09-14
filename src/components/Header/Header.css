@@ -1,0 +1,15 @@
+/* Apariencia*/
+/*header con minuscula es una etiqueta de html*/
+header {
+    background-color: #2b1d2e;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+header span{
+    font-size: 40px;
+}
