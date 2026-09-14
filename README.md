@@ -1,16 +1,47 @@
-# React + Vite
+                # 🎲 D&D para Novatos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+D&D para Novatos es una tienda educativa desarrollada en React, pensada para personas que quieren aprender a jugar Dungeons & Dragons desde cero.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La página presenta diferentes recursos de aprendizaje, cursos y suscripciones para conocer las reglas, crear personajes y comenzar a vivir aventuras.
 
-## React Compiler
+##  Componentes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+El proyecto está construido utilizando componentes reutilizables:
 
-## Expanding the ESLint configuration
+- Header
+- SearchBar
+- ProductList
+- ProductCard
+- Button
+- Footer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Funcionalidades
+
+- Visualización de productos de aprendizaje.
+- Buscador mediante un input controlado.
+- Uso de `useState` para controlar el buscador.
+- Renderización de productos mediante `.map()`.
+- Uso de `key` para identificar los elementos de la lista.
+- Uso de props para enviar información a ProductCard.
+- Productos gratuitos y premium.
+- Suscripciones para usuarios aventureros y maestros de mazmorra.
+
+##  Tecnologías utilizadas
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Git
+- GitHub
+
+##  Instalación
+
+Para ejecutar el proyecto localmente:
+
+```bash
+npm install
+npm run dev
