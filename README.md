@@ -1,47 +1,145 @@
-                # 🎲 D&D para Novatos
+🎲 D&D para Novatos – E-commerce React
 
-## Descripción
+📖 Descripción
 
-D&D para Novatos es una tienda educativa desarrollada en React, pensada para personas que quieren aprender a jugar Dungeons & Dragons desde cero.
+D&D para Novatos – E-commerce React es una aplicación web desarrollada con React y Vite, inspirada en el universo de Dungeons & Dragons.
 
-La página presenta diferentes recursos de aprendizaje, cursos y suscripciones para conocer las reglas, crear personajes y comenzar a vivir aventuras.
+Este proyecto fue creado como parte de un Diplomado en Desarrollo Web y consiste en una tienda de productos que obtiene información dinámicamente desde una API pública.
 
-##  Componentes
+La aplicación permite visualizar productos, buscar por nombre y mostrar mensajes durante la carga de información o cuando ocurre un error.
 
-El proyecto está construido utilizando componentes reutilizables:
+Su diseño conserva una estética inspirada en la fantasía medieval.
 
-- Header
-- SearchBar
-- ProductList
-- ProductCard
-- Button
-- Footer
+🎯 Objetivo del proyecto
 
-##  Funcionalidades
+Desarrollar una aplicación de comercio electrónico utilizando React, componentes reutilizables, manejo de estados y consumo de una API externa.
 
-- Visualización de productos de aprendizaje.
-- Buscador mediante un input controlado.
-- Uso de `useState` para controlar el buscador.
-- Renderización de productos mediante `.map()`.
-- Uso de `key` para identificar los elementos de la lista.
-- Uso de props para enviar información a ProductCard.
-- Productos gratuitos y premium.
-- Suscripciones para usuarios aventureros y maestros de mazmorra.
+🧩 Componentes
 
-##  Tecnologías utilizadas
+El proyecto utiliza los siguientes componentes:
 
-- React
-- JavaScript
-- HTML
-- CSS
-- Vite
-- Git
-- GitHub
+Header: encabezado y navegación de la aplicación.
 
-##  Instalación
+SearchBar: buscador de productos mediante un input controlado.
+
+ProductList: listado de productos obtenidos desde la API.
+
+ProductCard: tarjeta individual que muestra imagen, nombre, categoría y precio.
+
+Loader: indicador animado que aparece mientras se cargan los productos.
+
+ErrorMessage: mensaje que informa cuando ocurre un error al obtener los datos.
+
+Footer: pie de página de la aplicación.
+
+Button: componente reutilizable de botón.
+
+⚙️ Funcionalidades
+
+Consumo de una API externa mediante fetch().
+
+Obtención dinámica de productos.
+
+Visualización de imágenes, nombres, categorías y precios.
+
+Búsqueda de productos por nombre en tiempo real.
+
+Manejo de estados mediante useState.
+
+Ejecución de efectos mediante useEffect.
+
+Renderización de listas mediante .map().
+
+Filtrado de productos mediante .filter().
+
+Comunicación entre componentes mediante props.
+
+Indicador visual durante la carga de datos.
+
+Manejo de errores de conexión o respuesta.
+
+Interfaz con temática inspirada en Dungeons & Dragons.
+
+🌐 API utilizada
+
+El proyecto utiliza la API pública DummyJSON.
+
+Endpoint:
+
+https://dummyjson.com/products
+
+Esta API proporciona información de productos, incluyendo identificadores, nombres, imágenes, categorías y precios.
+
+💻 Tecnologías utilizadas
+
+React
+
+JavaScript
+
+HTML5
+
+CSS3
+
+Vite
+
+Fetch API
+
+Git
+
+GitHub
+
+🚀 Instalación y ejecución
 
 Para ejecutar el proyecto localmente:
 
-```bash
+1. Clonar el repositorio
+
+git clone https://github.com/Sophia38S/dnd-react-ecommerce.git
+
+2. Ingresar a la carpeta del proyecto
+
+cd dnd-react-ecommerce
+
+3. Instalar las dependencias
+
 npm install
+
+4. Iniciar el servidor de desarrollo
+
 npm run dev
+
+5. Abrir la aplicación
+
+Ingresar en el navegador a la dirección local indicada por Vite, normalmente:
+
+http://localhost:5173/
+
+📸 Capturas de pantalla
+
+Las capturas de pantalla de la aplicación se incorporarán en esta sección.
+
+Vista general de productos
+
+Pendiente de incorporar captura.
+
+Buscador de productos
+
+Pendiente de incorporar captura.
+
+Indicador de carga y manejo de errores
+
+Pendiente de incorporar capturas.
+
+📁 Repositorio
+
+El código fuente se encuentra disponible en GitHub:
+
+https://github.com/Sophia38S/dnd-react-ecommerce
+
+👩‍💻 Autora
+
+Sophia38S
+
+Proyecto académico desarrollado como parte del proceso de aprendizaje de React y desarrollo web Full Stack.
+
+🎲 «Toda gran aventura comienza con un primer paso».
