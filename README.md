@@ -118,7 +118,7 @@ http://localhost:5173/
 
 Las capturas de pantalla de la aplicación se incorporarán en esta sección.
 
-Vista general de productos
+![Vista general de la tienda D&D](public/screenshots/vista-general.png)
 
 Pendiente de incorporar captura.
 
