@@ -1,0 +1,27 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+  gap: 15px;
+  color: #39243f;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.loader-dice {
+  font-size: 3rem;
+  animation: girar 2s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

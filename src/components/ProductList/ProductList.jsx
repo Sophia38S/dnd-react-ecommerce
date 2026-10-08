@@ -1,17 +1,20 @@
-import products from '../../data/products'
+
 import ProductCard from '../ProductCard/ProductCard'
 import './ProductList.css';
 
-function ProductList() {
+function ProductList({ search, products }) {
+  const filteredProducts = products.filter((product) =>
+  product.title.toLowerCase().includes(search.toLowerCase())
+  );
   return (
     <section>
-      {products.map((product) => (
+      {filteredProducts.map((product) => (
         <ProductCard
           key={product.id}
-          name={product.name}
+          name={product.title}
           price={product.price}
           category={product.category}
-          image={product.image}
+          image={product.thumbnail}
         />
       ))}
     </section>

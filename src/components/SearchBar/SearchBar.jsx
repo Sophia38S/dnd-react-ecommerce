@@ -1,7 +1,7 @@
-import { useState } from 'react';
 
-function SearchBar() {
-    const [search, setSearch] = useState('')
+
+function SearchBar({ search, setSearch }) {
+    
 
   return (
     <div>
